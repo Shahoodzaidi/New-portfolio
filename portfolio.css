@@ -1,12 +1,5 @@
 
-@font-face {
-    font-family: husband;
-    src: url(/onclick/my-fonts/Poppins-Black.ttf);
-}
-@font-face {
-    font-family:poppins ;
-    src: url(/onclick/my-fonts/Poppins-Medium.ttf);
-}
+
 @font-face {
     font-family:mont ;
     src: url(/onclick/my-fonts/NeueHaasDisplayBold.ttf);
@@ -28,6 +21,9 @@
     transition: 2s ease-in-out;
     
     
+    }
+    *{
+        font-family: mont;
     }
 
 .navbar-toggler,
@@ -98,7 +94,7 @@
     color: orange;
 }
 .toggl a{
-    font-family: husband;
+    font-family: mont;
 }
 
 body,html{
@@ -113,10 +109,7 @@ body,html{
     position: fixed;
  
 }
-#nav .scroll{
-        background-color: white;
-        color: black;
-}
+
 
 .full{
     height: 100vh;
