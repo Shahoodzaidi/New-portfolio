@@ -136,8 +136,10 @@ border-radius: 100%;
 }
 
 .scroll{
-    font-family: poppins;
+    
    text-align: left;
+   word-spacing: 1vw;
+   
      
  
 }
@@ -197,7 +199,7 @@ a{
 /* projects.html*/
 
 center h1,.text-wrap{
-    font-family: mont;
+
     letter-spacing: .3em;
 font-size: 6vw;
 border-bottom: 3px solid;
@@ -206,7 +208,7 @@ border-bottom: 3px solid;
 }
 .two{
 display: inline-block;
-    font-family: husband;
+    
   border-bottom: 2px solid;
     font-size: 3vw;
 }
@@ -215,9 +217,6 @@ display: inline-block;
    margin-left: 28vw;
     
 }
-
-
-
 
 .accordion button{
     border: 0;
