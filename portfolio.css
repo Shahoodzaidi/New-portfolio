@@ -5,7 +5,7 @@
     src: url(/onclick/my-fonts/NeueHaasDisplayBold.ttf);
 }
 .logo{
-    font-family: mont;
+ 
     letter-spacing: .4vw;
     
 }
@@ -93,9 +93,7 @@
 .list a:hover{
     color: orange;
 }
-.toggl a{
-    font-family: mont;
-}
+
 
 body,html{
     overflow-x: hidden;
@@ -155,9 +153,6 @@ border-radius: 100%;
     animation-duration: 2s;
     
 }
-
-
-
 @keyframes zoom {
     0%{
         transform: scale(.8);
@@ -166,8 +161,6 @@ border-radius: 100%;
         transform: scale(1.5);
     }
 }
-
-
 
 a{
    transition: .50s  all ease-in-out;
